@@ -24,9 +24,9 @@ This chat is visible to public at some website but no cookie is being used so no
 $ git clone https://github.com/StrinTH/ScrapChat
 $ cd ScrapChat
 $ pip install -r requirements.txt
+#NOTE: xterm should be preinstalled or you can run chat and listen module separately in terminal
 $ chmod +x app.sh
 $ bash app.sh
-
 ```
 ## Windows:
 
