@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup as scrapper
 import time
+import sys
+
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -13,7 +15,7 @@ class bcolors:
 
 url = 'https://chatroll.com/embed/chat/anonymous-group-chat-room?name=anonymous-group-chat-room'
 content = {0: 'test'}
-iterator = 1
+
 
 def base_soup():
     response = requests.get(url)
@@ -99,25 +101,34 @@ def login_conf():
     response = requests.post('https://chatroll.com/service/call/plaincall/ServiceInterface.connect.req', headers=headers, cookies=cookies, data=data)
     return response.content
 
-while True:
-    
-    chats = base_soup()
-    if iterator < 2:
-        login_conf()
-        for chat in chats:
-            print(bcolors.OKBLUE + ''.join(chat.text).strip() + bcolors.ENDC)
-            time.sleep(1)
-    last_div = None
-    for last_div in chats:
-        pass
-
-    if last_div:
-        content[iterator] = last_div.getText()
-        if content[iterator-1] != content[iterator]:
-            print(bcolors.OKGREEN + ''.join(content[iterator]).strip() + bcolors.ENDC)
-
-        else:
+def main():
+    iterator = 1
+    while True:
+        
+        chats = base_soup()
+        if iterator < 2:
+            login_conf()
+            for chat in chats:
+                print(bcolors.OKBLUE + ''.join(chat.text).strip() + bcolors.ENDC)
+                time.sleep(1)
+        last_div = None
+        for last_div in chats:
             pass
 
-    iterator+=1
+        if last_div:
+            content[iterator] = last_div.getText()
+            if content[iterator-1] != content[iterator]:
+                print(bcolors.OKGREEN + ''.join(content[iterator]).strip() + bcolors.ENDC)
 
+            else:
+                pass
+
+        iterator+=1
+
+
+if __name__ == "__main__":
+    try:    
+        if sys.argv[1] == "-v":
+            print('Scrap Chat (part B) v0.1')
+    except:
+        main()
