@@ -58,4 +58,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of condu
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat?ref=badge_large)
+
 <a href="NOTICE.md">Notice</a>
