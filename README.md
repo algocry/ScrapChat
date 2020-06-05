@@ -1,4 +1,4 @@
-# DoctorHelp
+# Scrap Chat
 
 [![Build Status](https://travis-ci.com/StrinTH/ScrapChat.svg?branch=master)](https://travis-ci.com/StrinTH/ScrapChat) 
 ![Python application](https://github.com/StrinTH/ScrapChat/workflows/Python%20application/badge.svg)
