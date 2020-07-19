@@ -35,16 +35,10 @@ $ python3 chat.py
 
 [![Donate](https://raw.githubusercontent.com/StrinTH/H-Panel/master/assets/-460.png)](https://paypal.me/0x0is1?locale.x=en_GB)
 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of conduct](CODE_OF_CONDUCT.md) and the process of submitting pull requests to us.
-
 ## License 
-[![GitHub license](https://img.shields.io/github/license/StrinTH/ScrapChat)](https://github.com/StrinTH/ScrapChat/blob/master/LICENSE)
+![GitHub license](https://img.shields.io/github/license/StrinTH/ScrapChat)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat?ref=badge_large)
 
-<a href="NOTICE.md">Notice</a>
