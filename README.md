@@ -1,7 +1,6 @@
 # Scrap Chat
 
 [![Build Status](https://travis-ci.com/StrinTH/ScrapChat.svg?branch=master)](https://travis-ci.com/StrinTH/ScrapChat) 
-![Python application](https://github.com/StrinTH/ScrapChat/workflows/Python%20application/badge.svg)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat?ref=badge_shield)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/0x0is1off@gmail.com)
 
@@ -44,20 +43,13 @@ $ bash app.sh
 
 ### **Support authors**:
 
-[![Donate](./assets/default-pink.png)](https://www.buymeacoffee.com/6dciIwk)
+[![Donate](https://raw.githubusercontent.com/StrinTH/H-Panel/master/assets/default-pink.png)](https://www.buymeacoffee.com/6dciIwk)
 
-[![Donate](./assets/-460.png)](https://paypal.me/0x0is1?locale.x=en_GB)
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of conduct](CODE_OF_CONDUCT.md) and the process of submitting pull requests to us.
+[![Donate](https://raw.githubusercontent.com/StrinTH/H-Panel/master/assets/-460.png)](https://paypal.me/0x0is1?locale.x=en_GB)
 
 ## License 
-[![GitHub license](https://img.shields.io/github/license/StrinTH/ScrapChat)](https://github.com/StrinTH/ScrapChat/blob/master/LICENSE)
+![GitHub license](https://img.shields.io/github/license/StrinTH/ScrapChat)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FStrinTH%2FScrapChat?ref=badge_large)
-
-<a href="NOTICE.md">Notice</a>
