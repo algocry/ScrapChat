@@ -13,14 +13,12 @@ def anonymous_chat():
         'Accept-Language': 'en-US,en;q=0.5',
         'Accept-Encoding': 'gzip, deflate',
         'Content-Type': 'text/plain',
-        'Content-Length': '214',
         'Origin': 'https://chatroll.com',
         'Connection': 'close',
     }
     while True:
         message = input('message> ')
         data = {
-            
         'callCount': '1',
         'page': '/embed/chat/anonymous-group-chat-room?id=1&platform=html',
         'c0-scriptName': 'ServiceInterface',
@@ -29,14 +27,12 @@ def anonymous_chat():
         'c0-param0': 'string:ezcJWzDHi91',
         'c0-param1':'string:' + str(message)+ ' ',
         'batchId': '5'
-
         }
 
         response = requests.post('https://chatroll.com/service/call/plaincall/ServiceInterface.sendMessage.req', headers=headers, cookies=cookies, data=data)
-
+        if response.status_code == 501:
+            print('[+] Sent..')
+        else:
+            print('[+] Failed.. Try again!')
 if __name__ == "__main__":
-    try:    
-        if sys.argv[1] == "-v":
-            print('Scrap Chat (part A) v0.1')
-    except:
-        anonymous_chat()
+    anonymous_chat()
