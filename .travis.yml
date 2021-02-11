@@ -13,5 +13,4 @@ install:
 
 # Run the unit test
 script:
-- python3 chat.py -v
 - python3 listen.py -v
